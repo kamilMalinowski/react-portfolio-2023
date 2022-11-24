@@ -11,7 +11,11 @@ module.exports = {
       },
       colors: {
         primary: '#A47DE4',
+        secondary: '#7DE4AC',
       },
+      backgroundImage: {
+        'bg-primary': "url('/code-bg.jpg')",
+      }
     },
   },
   plugins: [],
