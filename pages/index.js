@@ -112,8 +112,8 @@ export default function Home() {
             <h3 className="text-lg text-secondary  md:text-2xl text-center">
               Projects
             </h3>
-            <ul className="mt-5 grid grid-cols-4">
-              <li className="w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl">
+            <ul className="mt-5 grid md:grid-cols-4 grid-cols-2 gap-5">
+              <li className="max-w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
                 <h4 className=" text-secondary">TongueDRUMS | shop</h4>
                 <a
                   class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
@@ -136,7 +136,7 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl">
+              <li className="max-w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl">
                 <h4 className=" text-secondary">MLU | game</h4>
                 <a
                   class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
@@ -202,11 +202,11 @@ export default function Home() {
 
         <div className="bg-slate-900">
           <section className="max-w-6xl mx-auto p-5 h-screen flex flex-col justify-center">
-            <h3 className="text-lg text-slate-900 text-center md:text-2xl">
+            <h3 className="text-lg text-secondary text-center md:text-2xl">
               Experience
             </h3>
-            <div className="flex flex-col justify-between gap-8 md:flex-row">
-              <section className=" base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover mt-4">
+            <div className="flex flex-col justify-between gap-5 md:flex-row mt-4">
+              <section className=" base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover ">
                 <p className="text-yellow-300 text-sm">11.2021 – </p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Freelancer
@@ -240,7 +240,7 @@ export default function Home() {
                   </li>
                 </ul>
               </section>
-              <section className=" base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover mt-4">
+              <section className=" base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover">
                 <p className="text-yellow-300 text-sm">02.2021 – 11.2022</p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Junior Frontend Developer
