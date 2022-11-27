@@ -12,6 +12,13 @@ import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "../particles.json";
 
+// next images
+import Image from "next/image";
+import logo from "../public/logo.svg";
+import portrait from "../public/portrait.jpg";
+import project1 from "../public/tongueDRUMS.jpg";
+import project2 from "../public/mlu.jpg";
+
 export default function Home() {
   const particlesInit = useCallback((main) => {
     loadFull(main);
@@ -37,9 +44,9 @@ export default function Home() {
                 className="flex items-center saturate-100 gap-2 hover:saturate-50"
                 href="https://www.kamil--m.com/"
               >
-                <img
+                <Image
+                  src={logo}
                   className="w-8 h-8 "
-                  src="/logo.svg"
                   alt="Kamil Malinowski logo"
                 />
                 <h1 className="text-primary font-bold">kamil--m.com</h1>
@@ -72,7 +79,7 @@ export default function Home() {
       </header>
 
       <main>
-        <div className="bg-[url('/code-bg.jpg')] bg-cover relative z-10 bg-fixed">
+        <div className="bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover relative z-10 bg-fixed">
           <section className="max-w-6xl mx-auto px-5 h-screen grid place-content-center md:flex md:flex-row md:items-center">
             <div className="basis-full text-center md:text-left">
               <h2 className="font-bold  text-4xl py-3 md:text-6xl tracking-widest">
@@ -99,19 +106,19 @@ export default function Home() {
             </div>
 
             <div className="flex items-center justify-center gap-2 md:gap-4 md:flex-col md:basis-full">
-              <img
+              <Image
                 className="w-20  rounded-lg shadow-lg saturate-0  h-auto mix-blend-color-burn "
-                src="/portrait.jpg"
+                src={portrait}
                 alt="Kamil Malinowski portrait"
               />
-              <img
+              <Image
                 className="w-28 md:w-36 rounded-lg h-auto shadow-lg border border-b-4 border-secondary"
-                src="/portrait.jpg"
+                src={portrait}
                 alt="Kamil Malinowski portrait"
               />
-              <img
+              <Image
                 className="w-20 rounded-lg h-auto shadow-lg  saturate-0 mix-blend-color-burn "
-                src="/portrait.jpg"
+                src={portrait}
                 alt="Kamil Malinowski portrait"
               />
             </div>
@@ -124,15 +131,15 @@ export default function Home() {
               Projects
             </h3>
             <ul className="mt-5 grid md:grid-cols-4 grid-cols-2 gap-5">
-              <li className="relative z-10 max-w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
                 <h4 className=" text-secondary">TongueDRUMS | shop</h4>
                 <a
                   class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
                   href="kamilmalinowski.github.io/vanillajs-tongue-drums-shop/"
                 >
-                  <img
+                  <Image
                     className="shadow-sm mx-auto hover:scale-110"
-                    src="/tongueDRUMS.jpg"
+                    src={project1}
                     alt="Tongue Drums"
                   />
                 </a>
@@ -147,15 +154,15 @@ export default function Home() {
                 </a>
               </li>
 
-              <li className="relative z-10 max-w-64 bg-[url('/code-bg.jpg')] bg-cover p-4 rounded-xl">
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover p-4 rounded-xl">
                 <h4 className=" text-secondary">MLU | game</h4>
                 <a
                   class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
                   href="https://kamilmalinowski.github.io/mlu-game/"
                 >
-                  <img
+                  <Image
                     className="shadow-sm mx-auto hover:scale-110"
-                    src="/mlu.jpg"
+                    src={project2}
                     alt="Mlu Game"
                   />
                 </a>
@@ -171,7 +178,7 @@ export default function Home() {
           </section>
         </div>
 
-        <div className="bg-fixed bg-[url('/code-bg.jpg')] bg-cover relative z-10 ">
+        <div className="bg-fixed bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover relative z-10 ">
           <section className="max-w-6xl mx-auto p-5  h-screen grid place-content-center ">
             <h3 className="text-lg text-secondary text-center md:text-2xl">
               My skills
@@ -217,7 +224,7 @@ export default function Home() {
               Experience
             </h3>
             <div className="flex flex-col justify-between gap-5 md:flex-row mt-4">
-              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover ">
+              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover ">
                 <p className="text-yellow-300 text-sm">11.2022 – </p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Freelancer
@@ -251,7 +258,7 @@ export default function Home() {
                   </li>
                 </ul>
               </section>
-              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover ">
+              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover ">
                 <p className="text-yellow-300 text-sm">02.2021 – 11.2022</p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Junior Frontend Developer
@@ -380,7 +387,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-fixed text-center px-4 py-12 bg-[url('/code-bg.jpg')] bg-cover shadow-lg relative z-10" >
+      <footer className="bg-fixed text-center px-4 py-12 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover shadow-lg relative z-10">
         <p className="text-xs">Copyright © Kamil Malinowski</p>
       </footer>
     </div>
