@@ -14,7 +14,7 @@ module.exports = {
         secondary: '#7DE4AC',
       },
       backgroundImage: {
-        'bg-primary': "url('/code-bg.jpg')",
+        'bg-primary': "url('../code-bg.jpg')",
       }
     },
   },
