@@ -37,5 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <h4>Screenshots</h4>
 
 | | |
-| <img src="https://www.kamil--m.com/gh/portfolio/1.jpg" alt="ss" width="855" height="751"/> | <img src="https://www.kamil--m.com/gh/portfolio/2.jpg" alt="ss" width="855" height="751"/> |
-| <img src="https://www.kamil--m.com/gh/portfolio/3.jpg" alt="ss" width="855" height="751"/> | <img src="https://www.kamil--m.com/gh/portfolio/4.jpg" alt="ss" width="855" height="751"/> |
+| :---: | :---: |
+| <img src="https://www.kamil--m.com/gh/portfolio/1.jpg" alt="ss" width="855" height="351"/> | <img src="https://www.kamil--m.com/gh/portfolio/2.jpg" alt="ss" width="855" height="351"/> |
+| <img src="https://www.kamil--m.com/gh/portfolio/3.jpg" alt="ss" width="855" height="351"/> | <img src="https://www.kamil--m.com/gh/portfolio/4.jpg" alt="ss" width="855" height="351"/> |
