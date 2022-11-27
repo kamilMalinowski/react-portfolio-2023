@@ -207,7 +207,7 @@ export default function Home() {
             </h3>
             <div className="flex flex-col justify-between gap-5 md:flex-row mt-4">
               <section className=" base-full w-full shadow-2xl p-8 rounded-xl bg-[url('/code-bg.jpg')] bg-cover ">
-                <p className="text-yellow-300 text-sm">11.2021 – </p>
+                <p className="text-yellow-300 text-sm">11.2022 – </p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Freelancer
                 </h4>
