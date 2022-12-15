@@ -4,7 +4,6 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiHtml5, DiCss3, DiJavascript, DiPhp } from "react-icons/di";
 import { FaVuejs, FaReact, FaAngular } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap, SiMysql } from "react-icons/si";
-import { ImLab } from "react-icons/im";
 
 // react particles
 import React, { useCallback } from "react";
@@ -16,8 +15,6 @@ import particlesOptions from "../particles.json";
 import Image from "next/image";
 import logo from "../public/logo.svg";
 import portrait from "../public/portrait.jpg";
-import project1 from "../public/tongueDRUMS.jpg";
-import project2 from "../public/mlu.jpg";
 
 export default function Home() {
   const particlesInit = useCallback((main) => {
@@ -67,7 +64,7 @@ export default function Home() {
                   <AiFillLinkedin className="w-6 h-6 fill-slate-200 " />
                 </a>
                 <a
-                  href="/kamil-malinowski__cv--04.11.2022.pdf"
+                  href="next/files/kamil-malinowski__cv--14.12.2022.pdf"
                   className="h-8 bg-gradient-to-br from-primary to-purple-900 text-slate-200  rounded-lg grid place-content-center px-4 hover:bg-gradient-to-br hover:from-purple-900 hover:to-primary hover:text-slate-100"
                 >
                   Resume
@@ -79,8 +76,8 @@ export default function Home() {
       </header>
 
       <main>
-        <div className="bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover relative z-10 bg-fixed">
-          <section className="max-w-6xl mx-auto px-5 h-screen grid place-content-center md:flex md:flex-row md:items-center">
+        <div className="bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover relative z-10 bg-fixed">
+          <section className="max-w-6xl mx-auto p-5 min-h-screen grid place-content-center md:flex md:flex-row md:items-center">
             <div className="basis-full text-center md:text-left">
               <h2 className="font-bold  text-4xl py-3 md:text-6xl tracking-widest">
                 Kamil Malinowski
@@ -126,60 +123,84 @@ export default function Home() {
         </div>
 
         <div className="relative z-10">
-          <section className="max-w-6xl mx-auto px-5 h-screen flex flex-col justify-center ">
+          <section className="max-w-6xl mx-auto p-5 min-h-screen flex flex-col justify-center ">
             <h3 className="text-lg text-secondary  md:text-2xl text-center">
               Projects
             </h3>
-            <ul className="mt-5 grid md:grid-cols-4 grid-cols-2 gap-5">
-              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
-                <h4 className=" text-secondary">TongueDRUMS | shop</h4>
+            <ul className="fetch-list mt-5 grid md:grid-cols-4 grid-cols-2 gap-5">
+              
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
                 <a
-                  class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
-                  href="kamilmalinowski.github.io/vanillajs-tongue-drums-shop/"
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://www.kamil--m.com/music"
                 >
-                  <Image
-                    className="shadow-sm mx-auto hover:scale-110"
-                    src={project1}
-                    alt="Tongue Drums"
-                  />
-                </a>
-                <a
-                  className="flex gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
-                  href="https://github.com/kamilMalinowski/vanillajs-tongue-drums-shop"
-                >
+                  <h4 className=" text-secondary">vue-kamil--m-music</h4>
                   <AiFillGithub className="w-6 h-6 fill-primary" />
-                  <p className="text-primary text-xs">
-                    vanillajs-tongue-drums-shop
-                  </p>
+                  <p className="text-primary text-xs">Official website of PL progressive metal band MLU</p>
                 </a>
               </li>
 
-              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover p-4 rounded-xl">
-                <h4 className=" text-secondary">MLU | game</h4>
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
                 <a
-                  class="rounded-md saturate-0 opacity-50 hover:opacity-100 hover:saturate-100 bg-gradient-to-br mt-3 overflow-hidden block"
-                  href="https://kamilmalinowski.github.io/mlu-game/"
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://www.kamil--m.com/movies"
                 >
-                  <Image
-                    className="shadow-sm mx-auto hover:scale-110"
-                    src={project2}
-                    alt="Mlu Game"
-                  />
-                </a>
-                <a
-                  className="flex gap-1 mt-4 mx-auto justify-left hover:saturate-50 items-center"
-                  href="https://github.com/kamilMalinowski/mlu-game"
-                >
+                  <h4 className=" text-secondary">vue-world-s-worst-movies</h4>
                   <AiFillGithub className="w-6 h-6 fill-primary" />
-                  <p className="text-primary text-xs">mlu-game</p>
+                  <p className="text-primary text-xs">Ranking of world's worst movies of all time, using Vue.js framework.</p>
                 </a>
               </li>
+
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+                <a
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://www.kamil--m.com/education"
+                >
+                  <h4 className=" text-secondary">react-english-helper</h4>
+                  <AiFillGithub className="w-6 h-6 fill-primary" />
+                  <p className="text-primary text-xs">English learning application using free API.</p>
+                </a>
+              </li>
+
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+                <a
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://www.kamil--m.com/games"
+                >
+                  <h4 className=" text-secondary">mlu-game</h4>
+                  <AiFillGithub className="w-6 h-6 fill-primary" />
+                  <p className="text-primary text-xs">A long-delayed passion for combining pixels into amazing artistic works.</p>
+                </a>
+              </li>
+
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+                <a
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://www.kamil--m.com/shops"
+                >
+                  <h4 className=" text-secondary">vanillajs-tongue-drums-shop</h4>
+                  <AiFillGithub className="w-6 h-6 fill-primary" />
+                  <p className="text-primary text-xs">My own concept of one page shop, created with vanilla JavaScript.</p>
+                </a>
+              </li>
+              
+              <li className="relative z-10 max-w-64 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+                <a
+                  className="flex flex-col gap-2 mt-4 mx-auto justify-left items-center hover:saturate-50"
+                  href="https://github.com/kamilMalinowski/react-portfolio-2023"
+                >
+                  <h4 className=" text-secondary">react-portfolio-2023</h4>
+                  <AiFillGithub className="w-6 h-6 fill-primary" />
+                  <p className="text-primary text-xs">Portfolio cointaining my most important projects. Based on React and Next.js.</p>
+                </a>
+              </li>
+
             </ul>
           </section>
         </div>
 
-        <div className="bg-fixed bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover relative z-10 ">
-          <section className="max-w-6xl mx-auto p-5  h-screen grid place-content-center ">
+        <div className="bg-fixed bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover relative z-10 ">
+          <section className="max-w-6xl mx-auto p-5  min-h-screen grid place-content-center ">
             <h3 className="text-lg text-secondary text-center md:text-2xl">
               My skills
             </h3>
@@ -219,12 +240,12 @@ export default function Home() {
         </div>
 
         <div className="">
-          <section className=" max-w-6xl mx-auto p-5 h-screen flex flex-col justify-center">
+          <section className=" max-w-6xl mx-auto p-5 min-h-screen flex flex-col justify-center">
             <h3 className="text-lg text-secondary text-center md:text-2xl">
               Experience
             </h3>
             <div className="flex flex-col justify-between gap-5 md:flex-row mt-4">
-              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover ">
+              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover ">
                 <p className="text-yellow-300 text-sm">11.2022 – </p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Freelancer
@@ -258,7 +279,7 @@ export default function Home() {
                   </li>
                 </ul>
               </section>
-              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover ">
+              <section className="relative z-10 base-full w-full shadow-2xl p-8 rounded-xl bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover ">
                 <p className="text-yellow-300 text-sm">02.2021 – 11.2022</p>
                 <h4 className="font-bold text-2xl text-slate-200">
                   Junior Frontend Developer
@@ -387,7 +408,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-fixed text-center px-4 py-12 bg-[url('https://www.kamil--m.com/next/code-bg.jpg')] bg-cover shadow-lg relative z-10">
+      <footer className="bg-fixed text-center px-4 py-12 bg-[url('https://www.kamil--m.com/next/assets/code-bg.jpg')] bg-cover shadow-lg relative z-10">
         <p className="text-xs">Copyright © Kamil Malinowski</p>
       </footer>
     </div>
