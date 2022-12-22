@@ -14,7 +14,7 @@ module.exports = {
         secondary: '#7DE4AC',
       },
       backgroundImage: {
-        'bg-primary': "url('https://www.kamil--m.com/next/assets/code-bg.jpg')",
+        'bg-primary': "url('https://www.kamil--m.com/portfolio/code-bg.jpg')",
       }
     },
   },
