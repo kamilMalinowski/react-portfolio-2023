@@ -13,8 +13,8 @@ import particlesOptions from "../particles.json";
 
 // next images
 import Image from "next/image";
-import logo from "../public/logo.svg";
-import portrait from "../public/portrait.jpg";
+import logo from "../img/logo.svg";
+import portrait from "../img/portrait.jpg";
 
 export default function Home() {
   const particlesInit = useCallback((main) => {
