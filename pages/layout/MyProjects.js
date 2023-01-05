@@ -12,12 +12,12 @@ function MyProjects() {
               className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative"
               href="https://www.kamil--m.com/music"
             >
-              <h4 className="text-left text-pink-500">vue-kamil--m-music</h4>
+              <h4 className="text-left text-pink-500 font-semibold">vue-kamil--m-music</h4>
               <AiFillGithub className="w-24 h-24 fill-pink-500 absolute -bottom-8 -right-8" />
               <p className="text-primary text-xs h-16">
                 Official website of PL progressive metal band MLU
               </p>
-              <p className="text-pink-500 text-xs">status: work in progress</p>
+              <p className="text-pink-500 text-xs ">status: work in progress</p>
             </a>
           </li>
 
@@ -67,22 +67,21 @@ function MyProjects() {
             </a>
           </li>
 
-          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto overflow-hidden border-2 border-pink-500" >
             <a
-              className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative"
-              href="https://www.kamil--m.com/games"
+              className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative "
+              href="https://www.kamil--m.com/education/bootstrap-notes/"
             >
-              <h4 className="text-left text-secondary">mlu-game</h4>
-              <AiFillGithub className="w-6 h-6 fill-primary absolute -top-2 -right-2" />
+              <h4 className="text-left text-pink-500 font-semibold">bootstrap-notes</h4>
+              <AiFillGithub className="w-24 h-24 fill-pink-500 absolute -bottom-8 -right-8" />
               <p className="text-primary text-xs h-16 left">
-                A long-delayed passion for combining pixels into amazing
-                artistic works.
+                Notes created using Bootstrap 5. Topics to learn: Bootstrap 5, Jest, TypeScript, Node.js and others.
               </p>
-              <p className="text-gray-400 text-xs">status: on hiatus</p>
+              <p className="text-pink-500 text-xs">status: work in progress</p>
             </a>
           </li>
 
-          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto overflow-hidden">
             <a
               className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative"
               href="https://www.kamil--m.com/shops"
@@ -90,7 +89,7 @@ function MyProjects() {
               <h4 className="text-left text-secondary">
                 vanillajs-tongue-drums-shop
               </h4>
-              <AiFillGithub className="w-6 h-6 fill-secondary absolute -top-2 -right-2" />
+              <AiFillGithub className="w-24 h-24 fill-secondary absolute -bottom-8 -right-8" />
               <p className="text-primary text-xs h-16 left">
                 My own concept of one page shop, created with vanilla
                 JavaScript.
@@ -99,15 +98,15 @@ function MyProjects() {
             </a>
           </li>
 
-          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto">
+          <li className="w-full h-40 z-10 max-w-64 bg-[url('https://www.kamil--m.com/portfolio/code-bg.jpg')] bg-cover p-4 rounded-xl mx-auto overflow-hidden">
             <a
               className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative"
               href="https://www.z-promo.com/pl/v4/powerhold/"
             >
-              <h4 className="text-left text-secondary">
+              <h4 className="text-left text-secondary ">
                 vanillajs-one-page-shop
               </h4>
-              <AiFillGithub className="w-6 h-6 fill-secondary absolute -top-2 -right-2" />
+              <AiFillGithub className="w-24 h-24 fill-secondary absolute -bottom-8 -right-8" />
               <p className="text-primary text-xs h-16 left">
                 A one-page store created for the employer. Working with html,
                 scss, javascript, splide js, php.
@@ -121,14 +120,14 @@ function MyProjects() {
               className="flex flex-col gap-2 h-full mx-auto justify-between items-left hover:saturate-50 relative"
               href="https://github.com/kamilMalinowski/react-portfolio-2023"
             >
-              <h4 className="text-left text-pink-500">react-portfolio-2023</h4>
+              <h4 className="text-left text-pink-500 font-semibold">react-portfolio-2023</h4>
               <AiFillGithub className="w-6 h-6 fill-pink-500 absolute -top-2 -right-2" />
               <p className="text-secondary text-xs  left">
                 Portfolio cointaining my most important projects. Based on React
                 and Next.js.
               </p>
               <p className="text-secondary text-xs font-bold">
-                <span className="text-pink-500 ">🔥update:</span> 21.12.2022
+                <span className="text-pink-500 ">🔥update:</span> 05.01.2023
               </p>
             </a>
           </li>
