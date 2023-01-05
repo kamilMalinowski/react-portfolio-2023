@@ -29,7 +29,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://www.kamil--m.com/portfolio/favicon.ico"
+          href="https://www.kamil--m.com/favicon.svg"
         />
       </Head>
       <TheHeader></TheHeader>
