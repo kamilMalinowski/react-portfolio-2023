@@ -25,7 +25,7 @@ function TheHeader() {
                 />
               </svg>
 
-              <h1 className="text-primary font-bold md:block hidden">
+              <h1 className="text-primary font-medium md:block hidden">
                 kamil--m.com
               </h1>
             </a>
@@ -45,7 +45,7 @@ function TheHeader() {
                 <AiFillLinkedin className="w-6 h-6 fill-slate-200 " />
               </a>
               <a
-                href="https://www.kamil--m.com/portfolio/kamil-malinowski__cv--22.12.2022.pdf"
+                href="https://www.kamil--m.com/portfolio/kamil-malinowski__cv--05.01.2023.pdf"
                 className="h-8 bg-gradient-to-br from-primary to-purple-900 text-slate-200  rounded-lg grid place-content-center px-4 hover:bg-gradient-to-br hover:from-purple-900 hover:to-primary hover:text-slate-100"
               >
                 Resume
